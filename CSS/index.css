@@ -1,0 +1,63 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('../images/comp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* TITLE */
+h1 {
+    font-size: 100px;
+    font-family: 'Averia Serif Libre', cursive;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 100px 0;
+    width: calc(100% + 14px);
+    box-sizing: border-box;
+    margin-top: 23vh;
+    background-color: rgba(255, 255, 255, 0.689);
+}
+
+/* Button styles */
+a {
+    font-family: 'Averia Serif Libre', sans-serif;
+    text-decoration: none;
+    padding: 20px 40px;
+    margin: 10px;
+    background-color: #b3b792;
+    color: black;
+    border-radius: 50px;
+    border: solid 2px black;
+    transition: all 0.3s ease;
+}
+
+/* Button hover effect */
+a:hover {
+    background-color: #868b6b;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 75vh;
+}
